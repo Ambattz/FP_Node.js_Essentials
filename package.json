@@ -1,0 +1,16 @@
+{
+  "name": "http",
+  "version": "1.0.0",
+  "description": "",
+  "main": "App.js",
+  "scripts": {
+    "start": "node_modules/.bin/pm2 start -f App.js --watch",
+    "stop": "node_modules/.bin/pm2 kill"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pm2": "^5.1.0"
+  }
+}
