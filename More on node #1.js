@@ -14,7 +14,7 @@ process.stdin.on("end", function () {
     const reverseString = reverseArrayValues.join('');
     var inputstr = input.toLowerCase();
     var reverseStr = reverseString.toLowerCase();
-    if (inputstr == reverseString) {
+    if (inputstr == reverseStr) {
         console.log('true');
     }
     else {
